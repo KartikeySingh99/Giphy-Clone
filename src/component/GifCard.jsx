@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 const GifCard = ({ gif, hover = true }) => {
   return (
     <>
+    {/* gif card component */}
       <Link to={`${gif?.type}/${gif?.slug}`}>
         <div className="w-full mb-2 relative cursor-pointer group aspect-video">
           <div className="overflow-hidden">
